@@ -1,0 +1,37 @@
+html, body {
+  font-family: serif;
+  font-size: 16px;
+}
+
+.countdown-container {
+  margin: 5rem;
+}
+
+.time-container {
+  display: flex;
+}
+
+.time {
+  width: 5em;
+  margin: .2rem;
+  background-color: lightpink;
+  border-radius: 1rem;
+  padding: 2rem;
+}
+
+#date,#hour,#min,#sec {
+  font-size: 3rem;
+  margin-right: 1rem;
+}
+
+#flowers {
+  width: 80%;
+}
+
+.flower-item {
+  opacity: 0;
+}
+
+.show {
+  opacity: 1;
+}
