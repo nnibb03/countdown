@@ -41,7 +41,6 @@ function hyoji() {
     
     // 日・時・分・秒を取得
     const calcDate = Math.floor( duration.asDays() );
-    console.log(calcDate);
 
     if ( calcDate >= index + 1) {
       parentItems.classList.add('show');
