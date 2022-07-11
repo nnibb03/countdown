@@ -1,4 +1,3 @@
-{
 "use strict";  
 
 const date = document.getElementById("date");
@@ -51,5 +50,3 @@ function hyoji() {
 }  
 
 hyoji();
-
-}
